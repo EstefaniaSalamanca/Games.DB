@@ -9,8 +9,9 @@ data class GamesModel(
 
 data class GameResponseItem(
 
-    @SerializedName("background_image") val image: String,
+    @SerializedName("background_image") val image: GameImageResponse,
     @SerializedName("id") val id: Int,
     @SerializedName("name") val name: String
 
 )
+data class GameImageResponse(@SerializedName("url") val url: String)

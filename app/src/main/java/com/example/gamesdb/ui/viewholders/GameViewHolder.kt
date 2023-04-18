@@ -1,4 +1,4 @@
-package com.example.gamesdb.ui.viewmodel
+package com.example.gamesdb.ui.viewholders
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView

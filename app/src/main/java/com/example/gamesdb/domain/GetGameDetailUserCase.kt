@@ -1,4 +1,7 @@
 package com.example.gamesdb.domain
 
-class GetGameDetailUserCase {
+import com.example.gamesdb.data.GamesRepository
+import javax.inject.Inject
+
+class GetGameDetailUserCase @Inject constructor(private val repository: GamesRepository) {
 }

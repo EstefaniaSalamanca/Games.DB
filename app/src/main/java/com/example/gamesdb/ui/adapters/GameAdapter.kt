@@ -1,10 +1,11 @@
-package com.example.gamesdb.ui.viewmodel
+package com.example.gamesdb.ui.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.gamesdb.GameResponseItem
 import com.example.gamesdb.R
+import com.example.gamesdb.ui.viewholders.GameViewHolder
 
 class GameAdapter(var gameList: List<GameResponseItem> = emptyList()) :
     RecyclerView.Adapter<GameViewHolder>() {
