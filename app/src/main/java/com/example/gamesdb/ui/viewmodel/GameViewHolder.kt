@@ -1,7 +1,8 @@
-package com.example.gamesdb
+package com.example.gamesdb.ui.viewmodel
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
+import com.example.gamesdb.GameResponseItem
 import com.example.gamesdb.databinding.ItemGameBinding
 
 class GameViewHolder(view:View):RecyclerView.ViewHolder(view) {
@@ -10,7 +11,7 @@ class GameViewHolder(view:View):RecyclerView.ViewHolder(view) {
 
     fun bind(gameResponseItem: GameResponseItem){
 
-        binding.tvGame.text = gameResponseItem.title
+        binding.tvGame.text = gameResponseItem.name
 
     }
 }

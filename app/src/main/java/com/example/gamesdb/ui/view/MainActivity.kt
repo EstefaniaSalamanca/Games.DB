@@ -1,9 +1,8 @@
-package com.example.gamesdb
+package com.example.gamesdb.ui.view
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.core.content.ContextCompat.startActivity
 import com.example.gamesdb.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
